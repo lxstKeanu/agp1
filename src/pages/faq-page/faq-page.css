@@ -1,0 +1,138 @@
+html{
+    background-color: #fffcf5;
+    background-image: url(../../images/sakura.png);
+    background-repeat: no-repeat;
+    background-position:  right top;
+    overflow-x: hidden;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.wrapper-card{
+    color: #fff;
+    margin-bottom: 70px;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.upper-text-description{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.upper-text-info-main{
+    font-family: 'PT Serif', serif;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #564734;
+}
+.main-block-text{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.upper-text-info{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    color: #677C77;
+    margin-bottom: 10px;
+    line-height: 25px;
+}
+
+.upper-text-info-bottom{
+    margin: 40px 0 20px 0;
+}
+
+.btn-insta{
+    background-color: rgb(86,71,52);
+    border-radius: 75px;
+    border-width: 1px;
+    border-color: rgb(107,100,70);
+    letter-spacing: 0px;
+    margin-bottom: 50px;
+    width: 200px;
+    height: 60px;
+}
+
+.btn-insta:hover{
+    transform: scale(1.2);
+    transition-duration: 0.3s;
+}
+
+.btn-insta-text{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(255,252,245);
+    padding: 20px 18px 20px 18px;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-information{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.bottom-information-text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    text-align:  center;
+    color: #677C77;
+    margin: 50px 0 50px 0;
+    line-height: 25px;
+}
+
+.btn-social{
+    background-color: rgb(86,71,52);
+    border-radius: 16px;
+    border-width: 1px;
+    border-color: rgb(107,100,70);
+    letter-spacing: 0px;
+    margin-bottom: 50px;
+    width: 230px;
+    height: 100px;
+    cursor: default;
+}
+
+.btn-social-text{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(255,252,245);
+    padding: 20px 14px 15px 14px;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-social-icons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.social-link:hover{
+    transform: scale(1.2);
+}

@@ -1,0 +1,67 @@
+.text-viewer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.text-widget{
+width: 45%;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+}
+
+.iconSakura{
+    width: 50px;
+    height: 50px;
+    transform: matrix(0.8, 0, 0, 0.8, 0, 0);
+    opacity: 0.4;
+    left: -19.0881px;
+    top: 946.828px;
+    width: 42.1761px;
+    height: 41.3449px;
+    z-index: 312;
+    animation-name: animation;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+
+.text-widget-main{
+    font-family: 'PT Serif', serif;
+    font-size: 21px;
+    font-weight: 400;
+    color: #564734;
+    margin-left: 10px;
+}
+
+.text-widget-description{
+    font-family: 'Open Sans';
+    font-size: 17px;
+    font-weight: 400;
+    color: #677C77;
+    line-height: 18px;
+    padding-bottom: 15px;
+    text-align: justify;
+    margin-left: 53px;
+    line-height: 28px;
+}
+
+@keyframes animation{
+    0%{
+        transform: translate(0px, 0px) rotate(0deg) scale(0.8);
+        opacity: 0.4;
+        animation-timing-function: ease-in-out;
+    }
+
+    100%{
+        transform: translate(0px, 0px) rotate(-24deg) scale(1);
+        opacity: 1;
+    }
+}

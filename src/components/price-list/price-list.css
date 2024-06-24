@@ -1,0 +1,54 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 400px;
+    height: 500px;
+    -moz-border-radius: 20%; 
+    -webkit-border-radius: 20%;
+    -khtml-border-radius: 20%;
+    -o-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -icab-border-radius: 20%;
+    border-radius: 13%;
+    border: 2px solid #d6bea6;
+    margin: 0 auto;
+}
+
+.card-name{
+    font-family: 'Open Sans';
+    font-size: 27px;
+    color: rgb(95,87,51);
+    cursor: default;
+}
+
+.card-description{
+    color: #fff;
+    background-color: #E0D5BE;
+    border-radius: 30px;
+    padding: 0 10px 0 10px;
+    cursor: default;
+}
+
+.card-price{
+    color: #564734;
+    font-size: 36px;
+    cursor: default;
+}
+
+.card-ul{
+    padding: 15px 15px 15px 30px;
+    background-color:#d6bea6;
+    border-radius: 30px;
+    cursor: default;
+    margin: 0px 15px;
+}
+
+.card-ul-text{
+    color: #fff;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    padding-bottom: 5px;
+}

@@ -1,0 +1,65 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin: 0 20px 10px;
+}
+
+.footer-description{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    color: #677C77
+}
+
+.footer-lower-information{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 20px 0 20px;
+}
+
+.logo-ag-photo{
+    cursor: pointer;
+}
+
+.footer-logo-name{
+    font-family: 'PT Serif', serif;
+    font-size: 21px;
+    font-weight: 400;
+    color: #564734;
+    margin-left: 10px;
+}
+
+.year-of-creation{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    cursor: default;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-creator{
+    font-family: 'PT Serif', serif;
+    width: 300px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 13px;
+    cursor: pointer;
+}
